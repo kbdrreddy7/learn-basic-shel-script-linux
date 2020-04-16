@@ -1,0 +1,3 @@
+Cygwin has most likely aliased sh to bash. Some distributions 
+don't offer a true sh anymore. Although some will argue (and I tend to agree) 
+that if you're writing a script to be portable, write it in sh instead of bash.

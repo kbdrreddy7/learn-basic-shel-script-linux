@@ -1,0 +1,44 @@
+
+  order
+  -----
+    variables
+    std-in-out    // has redirectiong FD ( from Gruru 99)
+
+    conditional-statements
+        if-else    // has operators also
+        case statements
+        for loop
+        while loop  // reading file is also there
+
+
+refer https://bash.cyberciti.biz/guide/While_loop
+
+
+
+
+
+ to make sh fiel executable
+ ------------------------------
+  1)  keep first line ( declaration)
+                     #! /bin/bash
+                     #! usr/bin/bash
+
+
+            // to know the directory using for shell
+               $ which bash
+               $ which shell
+
+    // make the file executable 
+       
+    ***    $ chmod +x  file.sh
+
+      to run 
+          1) $ ./file.sh       // if file is executable
+          2) $ sh file.sh
+          3) $ bash file.sh    // prefer this  
+
+          //  ref  https://stackoverflow.com/questions/3411048/unexpected-operator-in-shell-programming
+
+
+
+ 

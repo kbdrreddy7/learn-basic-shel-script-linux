@@ -1,0 +1,14 @@
+total 40
+drwxr-xr-x 3 ravinder ravinder 4096 Apr 16 22:43 .
+drwxr-xr-x 4 ravinder ravinder 4096 Apr 16 16:15 ..
+drwxr-xr-x 2 ravinder ravinder 4096 Apr 16 15:40 conditional-statements
+-rw-r--r-- 1 ravinder ravinder  384 Apr 16 22:33 functions.sh
+-rw-r--r-- 1 ravinder ravinder  867 Apr 16 16:15 help.txt
+--wxr--r-- 1 ravinder ravinder   34 Apr 16 22:44 new-no-read.txt
+-rw-r--r-- 1 ravinder ravinder    0 Apr 16 23:23 new-out.txt
+-rw-r--r-- 1 ravinder ravinder  968 Apr 16 16:50 regex.sh
+-rw-r--r-- 1 ravinder ravinder   67 Apr 16 16:50 sample.txt
+-rw-r--r-- 1 ravinder ravinder 1777 Apr 16 23:23 std-in-out.sh
+-rwxr-xr-x 1 ravinder ravinder  313 Apr 16 22:34 variables.sh
+hello
+cat: new-no-read.txt: Permission denied
