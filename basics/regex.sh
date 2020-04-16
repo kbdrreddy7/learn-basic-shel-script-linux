@@ -44,15 +44,15 @@ echo "***************"
 
  echo "***************"
 
- cat $sample | grep -E t\{2}  #  exactly two times   // -E is required
+ cat $sample | grep -E t\{2}  #  exactly two times  continuosly  // -E is required
 
 
   echo "***************"
 
 
- cat $sample | grep  "i\+t"
+ cat $sample | grep  "i\+t"   ## occurances of  t>i  and t is after i
 
   echo "***************"
 
-cat $sample | grep  "\+t"
+cat $sample | grep  "\+t"   ## not understand
 

@@ -2,7 +2,7 @@
 
 
 # USER INPUT
- read -p "Enter your name: " NAME
+ read -p "Enter your name: " NAME # -p prompt
  echo "Hello $NAME, nice to meet you!"
 
  echo "entere age"
@@ -25,6 +25,8 @@
 ls -al > new-out.txt  # redirecting the out put to file (override)
 
 echo hello >>new-out.txt # redirecting the output (append mode)
+
+# cat music.mp3 > file
 
 
 : '
@@ -71,7 +73,9 @@ cat new-no-read.txt 2>>new-out.txt   # error is redirected to file ( append)
 
 cat new-no-read.txt >> new-out.txt 2>>&1
 
+
  : '
+  
  here cat output is redirected to new-out.txt
  cat  error is redirected to cat output
  cat output is redirected to new-out.txt
