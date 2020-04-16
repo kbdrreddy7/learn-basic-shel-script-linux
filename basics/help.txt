@@ -9,6 +9,8 @@
         case statements
         for loop
         while loop  // reading file is also there
+        functions
+        regex
 
 
 refer https://bash.cyberciti.biz/guide/While_loop
