@@ -1,0 +1,20 @@
+
+
+variables
+
+operators   ref https://www.tutorialspoint.com/unix/unix-basic-operators.htm
+
+inputs / read
+
+control statements 
+
+      if-else
+         nested
+
+      loops
+         for
+         while
+         do-while      
+
+
+  
