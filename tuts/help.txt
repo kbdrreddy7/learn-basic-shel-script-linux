@@ -1,20 +1,97 @@
 
+Refernces
 
-variables
+   github https://github.com/kbdrreddy7/shell-scripting-tutorial
+1) Beginner's guide https://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf
+2) documents https://wiki.bash-hackers.org/
+    or http://mywiki.wooledge.org/BashGuide
 
-operators   ref https://www.tutorialspoint.com/unix/unix-basic-operators.htm
+3) Unix/Linux & Shell   https://www.tutorialspoint.com/unix/index.htm
 
-inputs / read
 
-control statements 
 
-      if-else
-         nested
+=================================================================================
+1)
+     What is Shell and Bash Scriptings?
 
-      loops
-         for
-         while
-         do-while      
+    ref https://askubuntu.com/questions/172481/is-bash-scripting-the-same-as-shell-scripting
+
+   - shell script= Bourne shell script ( default )
+
+   - shell script is means all the scriptings bash, zash, cshecll, kash etc
+
+   - bash script means specially for bash (Bourne  Again Shell )
+
+   - bash, zash, cshell are advanced version of shell, and these can run shell script also
+
+    
+      name.sh    # shell script
+      name.bash  # bash script
+
+2)   running script
+       ref https://stackoverflow.com/questions/22087378/difference-between-and-sh-in-unix
+       ref https://askubuntu.com/questions/22910/what-is-the-difference-between-and-sh-to-run-a-script
+
+       1) 
+            sh file        # executing with shell interpreter in a new process
+            bash file      # executing with bash interpreter in a new process
+            bash file      # executing with bash interpreter in a new process
+
+       2)
+            . file        #  executes a shell-script file in the current shell process
+
+       3)   
+             ./file       # making executable & run
+                            ( chmod a+x file )
+                   
+                         - it'll detect the interpreter based on hashbang line
+                              ( 
+                                 hashbang -> first line in script file 
+                                 #!/usr/bin/bash
+                                 #!/usr/bin/sh
+                              )
+                          - the script will be paassed to the interpreter in a new process
+
+                            .i.e  
+                              if the hashbang is #!/usr/bin/bash  then 
+                                   /usr/bin/bash file
+
+           
+
+            
+======================================== Topics =========================================
+1) hello world -> tut1.sh
+2) variables  ->  tut2.sh
+
+    data types:-
+           
+           primitive:
+                String, Number, Boolean
+
+           refernce:
+               Array
+
+
+3) inputs / read  -> tut3.sh
+
+4) operators -> tut4 & ref https://www.tutorialspoint.com/unix/unix-basic-operators.htm
+                ( while going for comparision operators --> see control statements (if) )
+
+5) control statements 
+     a) if, if-else, nested -> tut5.sh
+     c) case ( switch ) -> tut6.sh
+     b) loops
+         1) for
+         2) while
+         3) do-while  
+
+5) functions
+
+6) 
+   
 
 
   
+
+https://www.tutorialspoint.com/unix/unix-basic-operators.htm
+https://www.tutorialspoint.com/unix/unix-shell-substitutions.htm
